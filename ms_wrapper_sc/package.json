@@ -1,0 +1,15 @@
+{
+  "name": "ms_wrapper_sc",
+  "version": "1.0.0",
+  "description": "Wrapper SmartContract AutoriZame - Sepolia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "express": "^4.19.2"
+  }
+}
