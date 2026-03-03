@@ -25,7 +25,9 @@ const ABI = [
   "function mintPedido(uint256 idPedido_, address cliente_, address autorizado_, string metadataURI_) external",
   "function transferirAutorizacion(address nuevoOwner, uint256 tokenId) external",
   "function currentTokenId() view returns (uint256)",
-  "function owner() view returns (address)"
+  "function owner() view returns (address)",
+  "error NoEsPropietario(address caller, uint256 tokenId)",
+  "error SoloRepartidor(address caller, address repartidorEsperado)"
 ];
 
 // Wallet owner (backend)
