@@ -43,7 +43,7 @@ graph TD
 - **`🍃 Autorizame-api/`**: Backend principal en Spring Boot. Orquestador de lógica, validaciones y persistencia JPA.
 - **`📦 ms_wrapper_ipfs/`**: Microservicio Node.js para interactuar con el SDK de Pinata/IPFS.
 - **`⛓️ ms_wrapper_sc/`**: Microservicio Node.js para el minteo y transferencia de Smart Contracts (Ethers.js).
-- **`📜 blockchain/`**: Directorio con el código fuente del Smart Contract (`Autorizame.sol`).
+- **`📜 contracts/`**: Directorio con el código fuente del Smart Contract (`Autorizame.sol`).
 - **`🚜 Farmville/`**: Módulo adicional de procesamiento de datos JDBC y gestión de archivos.
 
 ---
